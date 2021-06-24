@@ -1,0 +1,176 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Baloo Tammudu 2', cursive;
+}
+
+body{
+    background-image: url(./imagenes/fondo3.jpg);
+    background-size: 100%;
+}
+
+#encabezado{
+justify-content: center;
+width:100%;
+align-items: center;
+display: flex;
+background-size: auto;
+text-align: center;
+/*background-image: url(./imagenes/fondo3.jpg);*/
+display: flex;
+background-size: 100%;
+}
+#encabezado h1{
+margin-top: 20px;    
+margin-left: 20px;
+font-size: 40pt;
+color: white;
+}
+#encabezado img{
+margin-bottom: 15px;
+}
+#navegacion{
+justify-content: center;
+width:100%;
+align-items: center;
+display: flex;
+background-size: auto;
+text-align: center;
+/*background-image: url(./imagenes/fondo3.jpg);*/
+background-size: 100%;
+
+}
+#navegacion ol{
+display: flex;
+padding:0px;
+margin:0px;
+}
+#navegacion ol li{
+list-style: none;
+border-right: 1px solid white;
+border-left: 1px solid white;
+display: block;
+}
+#navegacion ol li a{
+color:white;
+text-decoration: none;
+font-weight: bold;
+padding: 15px 18px;
+display: table;
+}
+
+#navegacion ol li a:hover{
+color:black;
+background-color: white;
+}
+
+#cuerpo{
+width: 90%;
+height: 100%;
+background-color:lightgrey;
+padding-left:5%;
+padding-right: 5%;
+padding-top: 2%;
+padding-bottom: 2%;
+display: table;
+}
+#pie{
+width:100%;
+height: 100px;
+background-color:black;
+text-align: center;
+padding-top:8px;
+color:white;
+float: none;
+background-image: url(./imagenes/fondo3.jpg);
+background-size: 100%;
+}
+    
+.centrada{
+text-align: center;
+}
+
+.justificada{
+text-align: justify;
+}
+
+.cuerpo-contenido{
+    font-size: 20px;
+    text-align: center;
+}
+
+.cuerpo-contenido h3{
+    font-size: 30px;
+}
+
+.justificada{
+text-align: justify;
+}
+
+.centrada{
+text-align: center;
+}
+
+
+.seccion{
+    display: flex;
+}
+
+.seccion ul{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.seccion ul li{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color:dodgerblue;
+    text-decoration: underline;
+}
+
+a:visited{
+color: rgb(243, 9, 9);
+}
+
+.imagen-redonda{
+border-radius: 100%;
+}
+.imagen-redonda:hover{
+border-radius: 25%;
+}
+.imagen-redonda2{
+border-radius: 100%;
+width: 120px;
+height: 120px;
+float: left;
+margin-right:10px;
+line-height: 150px;
+margin-top: 15px;
+margin-left: 15px;
+}
+
+@media (max-width: 550px) {
+    #encabezado h1{
+        font-size: 20px;
+        margin: auto
+    }
+}
+
+@media (max-width: 730px) {
+    .seccion{
+        display: inline-block;
+    }
+}
